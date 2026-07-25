@@ -15,7 +15,7 @@ async def welcome(update: Update, context: ContextTypes.DEFAULT_TYPE):
     username = user.username
     user_id = user.id
 
-text = f"""
+    text = f"""
 어서오세요 기다리고 있었어요.
 저는 아우라의 문지기, 진실의 입이에요.
 거짓말을 하면 당신의 손을 물어버릴거에요.
