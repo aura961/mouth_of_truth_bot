@@ -21,8 +21,8 @@ async def welcome(update: Update, context: ContextTypes.DEFAULT_TYPE):
 저는 아우라의 문지기, 진실의 입이에요.
 거짓말을 하면 당신의 손을 물어버릴거에요.
 
- 사용자명 : @{username if username else "없음"}
- 고유번호 : {user_id}
+사용자명 : @{username if username else "없음"}
+고유번호 : {user_id}
 """
 
     keyboard = [
